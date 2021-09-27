@@ -1,0 +1,883 @@
+/* login page */
+
+.loginbg {
+    background: linear-gradient( 360deg, black, #7a7a7a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+.loginbt {
+    border:rgb(255, 255, 255) ;
+    border: 10px
+}
+
+.login {
+    width: 80%;
+    height: 90%;
+    background-color: rgb(255 255 255 / 18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+.login-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-img img {
+    margin-top: 10px;
+}
+
+.login img {
+    width: 90px;
+    margin-bottom: 20px;
+}
+
+.login-username {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 120%;
+}
+
+.login-name {
+    margin-bottom: 20px;
+}
+
+.forgot {
+    margin-bottom: 20px;
+}
+
+/*--Description page--*/
+.containerbg{
+    display: none;
+}
+.description {
+    background-color: #EFF3F4;
+}
+
+.return-deescription {
+    margin-left: 8px;
+    height: 18.88px;
+    width: auto;
+}
+
+.arrow-left-deescription a {
+    color: #5e5e5e!important;
+}
+
+
+/*--login page--*/
+
+
+/*--home page--*/
+.webNav{
+    flex: 1;
+    background-color: wheat;
+}
+
+.webNav img {
+    font-size: 10px;
+}
+
+.navbar {
+    display: block;
+}
+
+.navbar-nav {
+    height: 200px;
+    justify-content: space-around;
+}
+
+.webNav{
+    display: none;
+}
+
+.webNav2 {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: center;
+    height: 200px;
+    justify-content: space-around;
+}
+
+
+
+#calendar .fc-scrollgrid-sync-table a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+#calendar .fc-col-header-cell-cushion {
+    color: black;
+    text-decoration: none;
+}
+
+#calendar {
+    margin: 13px;
+}
+
+.navbar-brand .fas,
+.fa-home::before {
+    font-size: 25px;
+    position: relative;
+    top: 1px;
+}
+
+.return-deescription span {
+    color: #5e5e5e!important;
+    font-family: IBM Plex Sans!important;
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+.title-description span {
+    width: 375px;
+    font-weight: bold;
+    margin: 5px;
+    display: flex;
+    justify-content: center!important;
+    font-family: IBM Plex Sans!important;
+    border-bottom: groove #5e5e5e!important;
+}
+
+.description-form {
+    padding-left: 15px!important;
+    font-family: IBM Plex Sans!important;
+}
+
+.media {
+    display: flex;
+    margin: 13px;
+    background: linear-gradient( 90deg, #dadada, transparent);
+    height: 85px;
+    border-radius: 20px;
+}
+
+.media .h-status {
+    align-items: center;
+    display: flex;
+    margin: 0px 10px 0px 20px;
+}
+
+.media-body {
+    margin: 20px;
+    width: 100%;
+}
+
+.assigned-to {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.fa-user-circle::before {
+    font-size: 23px;
+    padding-left: 5px;
+    height: 10px;
+    width: 50px;
+    opacity: 0.8;
+}
+
+.btn-primary {
+    font-size: 20px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 10px;
+    background-color: rgb(100, 110, 255);
+    border: 0;
+}
+
+.d-flex {
+    margin-top: 20px;
+}
+
+
+
+/*--Description page--*/
+/* 
+.return-deescription {
+    margin: 10px;
+    height: 18.88px;
+    width: auto;
+}
+
+.arrow-left-deescription a {
+    color: #5e5e5e!important;
+}
+
+.return-deescription span {
+    color: #000000!important;
+    font-family: IBM Plex Sans!important;
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+.title-description span {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: IBM Plex Sans;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: groove #5e5e5e
+}
+
+.description-form {
+    padding: 10px;
+    font-family: IBM Plex Sans!important;
+}
+
+.description-control {
+    width: 100%;
+    height: 200px;
+}
+
+.assign-to {
+    margin: 0px 0px 20px 20px;
+}
+
+.assign-to h2 {
+    margin-bottom: 20px;
+}
+
+.assign-to a .fa-user-circle::before {
+    font-size: 30px;
+    color: #5e5e5e;
+    opacity: 0.8;
+}
+
+.assign-to a .fa-user-plus::before {
+    font-size: 15px;
+    color: #5e5e5e;
+    opacity: 0.5;
+    margin-left: 5px;
+}
+
+.due-date {
+    margin: 0px 0px 20px 20px;
+} */
+
+
+.title-description span {
+    width: 375px;
+    font-weight: bold;
+    margin: 5px;
+    display: flex;
+    justify-content: center!important;
+    font-family: IBM Plex Sans!important;
+    border-bottom: groove #5e5e5e!important; 
+}
+
+.description-form {
+    padding-left: 15px!important;
+    font-family: IBM Plex Sans!important;
+    display: flex;
+    justify-content: center;
+}
+
+/* .project-form {
+    padding-left: 15px!important;
+    font-family: IBM Plex Sans!important;
+    display: flex;
+    justify-content: center;
+} */
+
+/* .description-form textarea{
+    width: 80%;
+    height: 50px;
+    padding: 0px;
+    font-family: IBM Plex Sans;
+    cursor: pointer;
+    border-width: 0px;
+} */
+
+.return-deescription{
+    margin: 10px;
+    height: 18.88px;
+    width: auto;
+}
+
+.arrow-left-deescription a{
+    color:#5e5e5e!important;
+}
+
+.return-deescription span{
+    color: #000000!important;
+    font-family: IBM Plex Sans!important;
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+.title-description span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: IBM Plex Sans;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: groove #5e5e5e
+}
+.project-control {
+    width: 80%;
+    height: 50px;
+    border-width: 0px;
+    color: #0C2D48;
+    font-size: 20px;
+    font-style: bold;
+    cursor: pointer;
+    background-image: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.description-control {
+    width: 80%;
+    height: 50px;
+    border-width: 0px;
+    color: #0C2D48;
+    font-size: 20px;
+    font-style: bold;
+    cursor: pointer;
+    background-image: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.assign-to{
+    margin: 0px 0px 20px 20px;
+    
+}
+
+.assign-to h2 {
+    margin-bottom: 20px;
+}
+
+.assign-to a .fa-user-circle::before {
+    font-size: 30px;
+    color: #5e5e5e;
+    opacity: 0.8;
+}
+
+.assign-to a .fa-user-plus::before {
+    font-size: 15px;
+    color:#5e5e5e;
+    margin-left: 5px;   
+}
+
+.due-date {
+    margin: 0px 0px 20px 20px;
+    
+}
+
+.descriptionpopup{
+    background-color: rgba(255, 255, 255, 0.699);
+}
+
+.descriptionPopup-wrapper{
+    background: rgba(0, 0, 0 0.7);
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.descriptionPopup{
+    background-color: white;
+    opacity: 0.95;
+    
+}
+
+.descriptionPopup-wrapper button{
+    font-size: 24px;
+    color: cornsilk;
+    margin: 60px 25px;
+    background: rgb(8, 85, 230);
+    border: 0px;
+    padding: 14px 25px;
+    border-radius: 10px;
+    
+}
+
+.descriptionPopup-wrapper #Confirm{
+background-color: rgb(8, 85, 230);
+}
+
+.descriptionPopup-wrapper #Cancel{
+background-color: rgb(8, 148, 104);
+}
+
+.descriptionPopup-wrapper{
+    background: rgba(0, 0, 0 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*--Add On Description page--*/
+
+.addonTitle-description span {
+    width: 375px;
+    font-weight: bold;
+    margin: 5px;
+    display: flex;
+    justify-content: center!important;
+    font-family: IBM Plex Sans!important;
+    border-bottom: groove #5e5e5e!important;
+}
+
+.addonDescription-form {
+    padding-left: 15px!important;
+    font-family: IBM Plex Sans!important;
+    display: flex;
+    justify-content: center;
+}
+
+.addonDescription-form textarea{
+    width: 80%;
+    height: 50px;
+    padding: 0px;
+    font-family: IBM Plex Sans;
+    cursor: pointer;
+    border-width: 0px;
+}
+/* .return-deescription{
+    margin: 10px;
+    height: 18.88px;
+    width: auto;
+}
+
+.arrow-left-deescription a{
+    color:#5e5e5e!important;
+}
+
+.return-deescription span{
+    color: #000000!important;
+    font-family: IBM Plex Sans!important;
+    font-size: 20px;
+    margin-left: 16px;
+} */
+
+.addonTitle-description span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: IBM Plex Sans;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: groove #5e5e5e
+}
+
+.addonDescription-control {
+    width: 80%;
+    height: 50px;
+    border-width: 0px;
+    color: #0C2D48;
+    font-size: 20px;
+    font-style: bold;
+    cursor: pointer;
+    background-image: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.addonAssign-to{
+    margin: 0px 0px 20px 20px;
+    
+}
+
+.addonAssign-to h2 {
+    margin-bottom: 20px;
+}
+
+.addonAssign-to a .fa-user-circle::before {
+    font-size: 30px;
+    color: #5e5e5e;
+    opacity: 0.8;
+}
+
+.addonAssign-to a .fa-user-plus::before {
+    font-size: 15px;
+    color:#5e5e5e;
+    margin-left: 5px;   
+}
+
+.addonDue-date {
+    margin: 0px 0px 20px 20px;
+    
+}
+
+.addonDescriptionpopup{
+    background-color: rgba(255, 255, 255, 0.699);
+}
+
+.addonDescriptionPopup-wrapper{
+    background: rgba(0, 0, 0 0.7);
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.addonDescriptionPopup{
+    background-color: white;
+    opacity: 0.95;
+    
+}
+
+.addonDescriptionPopup-wrapper button{
+    font-size: 24px;
+    color: cornsilk;
+    margin: 60px 25px;
+    background: rgb(8, 85, 230);
+    border: 0px;
+    padding: 14px 25px;
+    border-radius: 10px;
+    
+}
+
+.addonDescriptionPopup-wrapper #addonConfirm{
+background-color: rgb(8, 85, 230);
+}
+
+.addonDescriptionPopup-wrapper #addonCancel{
+background-color: rgb(8, 148, 104);
+}
+
+.addonDescriptionPopup-wrapper{
+    background: rgba(0, 0, 0 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*--Add On Description page--*/
+
+/*---popup html---*/
+
+.popup-wrapper{
+    background: rgba(0, 0, 0 0.7);
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.hide{
+    display: none;
+}
+
+.popup{
+    text-align: center;
+    background-color: white;
+    opacity: 0.85;
+}
+
+button{
+    font-size: 24px;
+    color: cornsilk;
+    margin: 60px 25px;
+    background: rgb(8, 85, 230);
+    border: 0px;
+    padding: 14px 25px;
+    border-radius: 10px;
+}
+
+#popupConfirm{
+background-color: rgb(8, 85, 230);
+}
+
+#popupCancel{
+background-color: rgb(8, 148, 104);
+}
+
+.popup-wrapper{
+    background: rgba(0, 0, 0 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*---popup html---*/
+
+
+/*---User page---*/
+.user_page {
+    flex: auto;
+    width: 100vh;
+}
+
+.userpage{
+    display: none;
+}
+.status {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+}
+
+.status h5 {
+    color: rgb(48, 48, 48);
+    margin: 20px;
+}
+
+.status a {
+    color: #5e5e5e;
+}
+
+.status span {
+    color: #000000;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+.status h1 {
+    color: rgb(48, 48, 48);
+    margin-left: 20px;
+}
+
+.today {
+    margin: 10px;
+    width: auto;
+}
+
+.date {
+    margin: 20px 0px 10px 10px;
+}
+
+.task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.taskbg {
+    background: linear-gradient( 90deg, #dadada, transparent);
+    width: 90%;
+    height: 85px;
+    display: flex;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+hr {
+    height: 5px;
+}
+
+.taskcheck {
+    flex: 1;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasks {
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+
+input#checkbox {
+    width: 25%;
+    height: 25%;
+}
+
+.flex_item {
+    display: flex;
+}
+
+
+@media screen and (min-width: 768px) {
+    body{
+        height: 100vh;
+    }
+    main {
+        display: flex;
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .webNav{
+        flex: 1;
+        background-color: wheat;
+    }
+    .webNav2{
+        display: flex;
+    }
+    .webNav2-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .webNav2 img {
+        width: 90px;
+        margin-bottom: 20px;
+    }
+
+    .nav-link {
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+    }
+
+    #home-page {
+        height: 100vh;
+        flex: 2;
+    }
+   
+    .homepage{
+        height: 100vh;
+    }
+    .loginbg {
+        flex: 1;
+    }
+
+    #calendar {
+        height: 45vh;
+    }
+
+    .partthree .fas{
+        display: none;
+    }
+
+    .partthree .nav-link {
+        display: none;
+    }
+
+    .partthree .navbar {
+        height: 56px;
+    }
+
+    .login {
+        width: 70%;
+        height: 80%;
+        background-color: rgb(255 255 255 / 18%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 50px;
+    }
+    .login-username {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .login-name {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .login-password {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+   
+    .containerbg {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        
+    }
+    .userpage {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        
+    }
+    input {
+        width: 80%;
+    }
+    .partthree {
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        height: 100vh;
+    }
+    
+
+    /* .homepage button {
+        display: none;
+    } */
+
+    .userpage {
+        display: none;
+    }
+
+    .webNav{
+        display: block;
+    }
+    
+    .user_nav_item {
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .signout {
+        margin-left: 10px;
+    }
+
+    .fa-sign-out-alt:before {
+        color: black;
+        content: "\f2f5";
+        font-size: 30px;
+    }
+
+    .user_page {
+        display: none;
+    }
+}
