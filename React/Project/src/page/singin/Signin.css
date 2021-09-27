@@ -1,0 +1,83 @@
+.loginbg {
+  background: linear-gradient(
+    90deg,
+    rgb(148, 255, 250),
+    rgb(0, 230, 247)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.login {
+  width: 80%;
+  height: 90%;
+  background-color: rgb(255 255 255 / 18%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50px;
+}
+
+.login-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login img {
+  width: 150px;
+  margin-bottom: 50px;
+}
+
+.login-username {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 120%;
+}
+.login-password {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#username {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid rgb(7, 7, 7);
+  background: none;
+  padding: 20px;
+  outline: none;
+  font-size: 30px;
+}
+#user-pw {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid rgb(7, 7, 7);
+  background: none;
+  padding: 20px;
+  outline: none;
+  font-size: 30px;
+}
+
+.signbt {
+  cursor: pointer;
+}
+.signbt input {
+  background: none;
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 2px;
+  width: 99px;
+  height: 44px;
+}
+.webNav {
+  flex: 1;
+  background-color: wheat;
+}

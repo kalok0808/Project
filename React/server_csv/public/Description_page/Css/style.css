@@ -1,0 +1,595 @@
+
+/*--Description page--*/
+*{
+    font-family: Alumni Sans;
+}
+
+
+.wrapper {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    /* box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2); */
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .title {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    line-height: 300px;
+    text-align: center;
+    color: white;
+    font-family: serif;
+    font-size: 30px;
+  }
+
+  .wave {
+    background: #6a82fb;
+    width: 500px;
+    height: 500px;
+    border-radius: 40%;
+    opacity: 0.4;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+    transform-origin: center;
+    animation: drift 7s infinite linear;
+  }
+
+  .wave.two {
+    animation: drift 9s infinite linear;
+  }
+
+  .wave.three {
+    animation: drift 11s infinite linear;
+    opacity: 0.1;
+  }
+
+  @keyframes drift {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  .wrapper:after {
+    content: "";
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to bottom,
+      #88c3e6,
+      rgba(238, 221, 255, 0) 80%,
+      rgba(255, 255, 255, 0.5) 100%
+    );
+    z-index: 11;
+    transform: translate3d(0, 0, 0);
+  }
+
+.mediaNav {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    line-height: 1;
+    margin: 0;
+}
+
+.media {
+    display: flex;
+    margin: 13px;
+    background: linear-gradient(90deg, #dadada, transparent);
+    border-radius: 20px;
+}
+
+.media .h-status {
+    align-items: center;
+    display: flex;
+    margin: 0px 10px 0px 20px;
+}
+
+.media-body {
+    margin: 20px;
+    width: 100%;
+}
+
+.assigned-to {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.mediaDate{
+    font-size: 25px;
+}
+
+#mediadate{
+    margin-left: 35px;
+}
+
+.navbar-brand .fas,
+.fa-home::before {
+    font-size: 25px;
+    position: relative;
+    top: 1px;
+}
+
+.addTask{
+    display: flex;
+}
+
+.mediaContent{
+    width: 100%;
+    border: none;
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    display: flex;
+    margin: 13px;
+    background: linear-gradient(90deg, #dadada, transparent);
+    height: 85px;
+    border-radius: 20px;
+}
+
+.media .h-status {
+    align-items: center;
+    display: flex;
+    margin: 0px 10px 0px 20px;
+}
+
+.media-body {
+    margin: 20px;
+    width: 100%;
+}
+
+.assigned-to {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.fa-user-circle::before {
+    font-size: 23px;
+    padding-left: 5px;
+    height: 10px;
+    width: 50px;
+    opacity: 0.8;
+}
+
+.btn-primary {
+    font-size: 20px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 10px;
+    background-color: rgb(100, 110, 255);
+    border: 0;
+}
+
+.d-flex {
+    margin-top: 20px;
+}
+
+/*--Description page--*/
+
+.title-project span {
+    width: 375px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    border-bottom: groove #5e5e5e; 
+}
+.mediaArrow ::before{
+    text-decoration:none;
+    margin-left: 10px;
+    color: rgb(68, 68, 68);
+    font-size: 20px;
+}
+
+.mediaToday span{
+    margin-left: 10px;
+    color: rgb(68, 68, 68);
+}
+
+.mediadate{
+    margin: 20px 0px 10px 35px;
+}
+
+.title-description span {
+    width: 375px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    border-bottom: groove #5e5e5e; 
+}
+
+.description-form {
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.project-form {
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/* .description-form textarea{
+    width: 80%;
+    height: 50px;
+    padding: 0px;
+    font-family: Alumni Sans;
+    cursor: pointer;
+    border-width: 0px;
+} */
+
+.return-deescription{
+    margin: 10px;
+    height: 18.88px;
+    width: auto;
+}
+
+.arrow-left-deescription a{
+    color:#5e5e5e!important;
+}
+
+.return-deescription span{
+    color: #000000;
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+.project-control {
+    width: 80%;
+    height: 50px;
+    border-width: 0px;
+    color: #0C2D48;
+    font-size: 20px;
+    font-style: bold;
+    cursor: pointer;
+    background-image: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    resize: none;
+}
+
+.description-control {
+    width: 80%;
+    height: 50px;
+    border-width: 0px;
+    color: #0C2D48;
+    font-size: 20px;
+    font-style: bold;
+    cursor: pointer;
+    background-image: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    resize: none;
+}
+
+.assign-to{
+    margin: 0px 0px 20px 20px;
+    height: 85px
+}
+
+.assign-to h2 {
+    margin-bottom: 20px;
+}
+
+.assign-to a .fa-user-circle::before {
+    font-size: 30px;
+    color: #5e5e5e;
+    opacity: 0.8;
+}
+
+.assign-to a .fa-user-plus::before {
+    font-size: 15px;
+    color:#5e5e5e;
+    margin-left: 5px;   
+}
+
+.due-date{
+    margin: 20px 0px 0px 20px;
+}
+
+.descriptionPopup{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.699);
+    background-color: white;
+    opacity: 0.95;
+}
+
+.descriptionPopup-wrapper{
+    background: rgba(0, 0, 0 0.7);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+
+.descriptionPopup{
+    background-color: white;
+    opacity: 0.95;
+    
+}
+
+.descriptionPopup-wrapper button{
+    font-size: 24px;
+    color: cornsilk;
+    margin: 60px 25px;
+    background: rgb(8, 85, 230);
+    border: 0px;
+    padding: 14px 25px;
+    border-radius: 10px;
+}
+
+.descriptionPopup-wrapper #Confirm{
+background-color: rgb(8, 85, 230);
+}
+
+.descriptionPopup-wrapper #Cancel{
+background-color: rgb(8, 148, 104);
+}
+
+.descriptionPopup-wrapper{
+    background: rgba(0, 0, 0 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*--Description page--*/
+
+/*--Add On Description page--*/
+
+.addonTitle-project span {
+    width: 375px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    border-bottom: groove #5e5e5e; 
+}
+
+.addonTitle-description span {
+    width: 375px;
+    font-weight: bold;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    border-bottom: groove #5e5e5e;
+}
+
+.addonProject-form {
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.addonDescription-form {
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.addonDescription-form textarea{
+    width: 80%;
+    height: 50px;
+    padding: 0px;
+    cursor: pointer;
+    border-width: 0px;
+}
+
+.addonTitle-description span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: groove #5e5e5e
+}
+
+.addonProject-control {
+    width: 80%;
+    height: 50px;
+    border-width: 0px;
+    color: #0C2D48;
+    font-size: 20px;
+    font-style: bold;
+    cursor: pointer;
+    background-image: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    resize: none;
+}
+
+.addonDescription-control {
+    width: 80%;
+    height: 50px;
+    border-width: 0px;
+    color: #0C2D48;
+    font-size: 20px;
+    font-style: bold;
+    cursor: pointer;
+    background-image: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    resize: none;
+}
+
+.addonAssign-to{
+    margin: 0px 0px 20px 20px;
+    height: 85px;
+}
+
+.addonAssign-to h2 {
+    margin-bottom: 20px;
+}
+
+.addonAssign-to a .fa-user-circle::before {
+    font-size: 30px;
+    color: #5e5e5e;
+    opacity: 0.8;
+}
+
+.addonAssign-to a .fa-user-plus::before {
+    font-size: 15px;
+    color:#5e5e5e;
+    margin-left: 5px;   
+}
+
+.addonDue-date {
+    margin: 20px 0px 0px 20px;
+}
+
+.addonDescriptionPopup{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.699);
+    background-color: white;
+    opacity: 0.95;
+}
+
+.addonDescriptionPopup-wrapper{
+    background: rgba(0, 0, 0 0.7);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+
+.addonDescriptionPopup{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.699);
+    background-color: white;
+    opacity: 0.95;
+    
+}
+
+.addonDescriptionPopup-wrapper button{
+    font-size: 24px;
+    color: cornsilk;
+    margin: 60px 25px;
+    background: rgb(8, 85, 230);
+    border: 0px;
+    padding: 14px 25px;
+    border-radius: 10px;
+    
+}
+
+.addonDescriptionPopup-wrapper #addonConfirm{
+background-color: rgb(8, 85, 230);
+}
+
+.addonDescriptionPopup-wrapper #addonCancel{
+background-color: rgb(8, 148, 104);
+}
+
+/*--Add On Description page--*/
+
+/*---popup html---*/
+
+
+#popupid .popup-wrapper{
+    background: rgba(0, 0, 0 0.7);
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    transition: all 10s;
+    top: 200vh;
+}
+
+.hide{
+    display: none;
+    transition: all 10s;
+    top: 200vh;
+}
+
+
+.popup{
+    text-align: center;
+    background-color: white;
+    opacity: 0.85;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 150px;
+    width: 80vw;
+    padding-top: 50px;
+}
+
+button{
+    font-size: 24px;
+    color: cornsilk;
+    margin: 60px 25px;
+    background: rgb(8, 85, 230);
+    border: 0px;
+    padding: 14px 25px;
+    border-radius: 10px;
+}
+
+#popupConfirm{
+background-color: rgb(8, 85, 230);
+}
+
+#popupCancel{
+background-color: rgb(8, 148, 104);
+}
+
+.popup-wrapper{
+    background: rgba(0, 0, 0 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+

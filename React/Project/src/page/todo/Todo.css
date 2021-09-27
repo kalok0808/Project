@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: linear-gradient(to right bottom, pink, white);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appWrapper {
+  background-color: rgba(255, 239, 239);
+  min-width: 450px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px pink;
+  margin-bottom: 10px;
+}
+.addForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+.header h1 {
+  text-align: center;
+  margin: 30px 0;
+}
+.taskInput {
+  outline: none;
+  width: 260px;
+  padding: 15px;
+  margin-right: 25px;
+  color: rgb(34, 34, 34);
+  background-color: rgb(255, 255, 255, 0.7);
+  border: black;
+  border-radius: 10px;
+  height: 50px;
+}
+.buttonAdd {
+  width: 70px;
+  padding: 15px 15px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 0;
+  background-color: pink;
+  cursor: pointer;
+  margin: 0;
+}
+
+.listItem {
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 30px;
+  align-items: center;
+}
+.todoButton {
+  display: flex;
+}
+.buttonComplete,
+.buttonDelete,
+.buttonEdit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.iconButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.buttonComplete path {
+  fill: rgb(0 131 171);
+  margin-right: 10px;
+}
+
+.buttonEdit path {
+  fill: rgb(49 21 150);
+  margin-right: 10px;
+}
+.buttonDelete path {
+  fill: rgb(181 72 145);
+}
+.complete {
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: purple;
+  opacity: 0.6;
+}
+
+.todoList {
+  width: 220px;
+  height: 100%;
+  background-color: rgba(255, 239, 239);
+  border: none;
+  color: black;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 15px;
+}
+input:focus,
+button:focus {
+  outline: none;
+}

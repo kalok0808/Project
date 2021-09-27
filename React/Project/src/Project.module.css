@@ -1,0 +1,58 @@
+.projectBody {
+  background-color: rgb(255, 226, 231);
+  width: 100vw;
+  min-height: 100vh;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.plusButton {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+}
+.Itemlist {
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border: solid black 2px;
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+}
+.projectForm {
+  background-color: rgb(250, 248, 248, 0.5);
+  padding: 10px;
+  border: solid black 2px;
+  width: 350px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+.checkBox {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+.formButton {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.submitButton {
+  background-color: white;
+  border-radius: 5px;
+  width: 60px;
+  height: 40px;
+  margin-right: 20px;
+}
+.xButton {
+  background-color: white;
+  border-radius: 5px;
+  width: 60px;
+  height: 40px;
+}

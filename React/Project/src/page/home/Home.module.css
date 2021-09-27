@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Vollkorn:wght@500&display=swap");
+* {
+  /* font-family: "montserrat", Arial, Helvetica, sans-serif; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.showcase {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+  z-index: 2;
+}
+.showcase.active {
+  right: 300px;
+}
+.logo {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.toggle.active {
+  background: url(https://i.ibb.co/rt3HybH/close.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
+}
+.menu {
+  background: rgba(102, 37, 93, 0.7);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu ul {
+  position: relative;
+  list-style: none;
+  line-height: 80px;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+.menu ul li a:hover {
+  color: black;
+}
+.showcase header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.toggle {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+}
+.showcase img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  mix-blend-mode: overlay;
+}
+.text {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text h2 {
+  font-family: "Vollkorn", serif;
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+  animation: fadeIn 10s;
+}
+.text p {
+  font-family: "Cookie", cursive;
+  font-size: 2.5em;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+  animation: fadeIn 10s;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 100px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.text a {
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  display: inline-block;
+  padding: 12px 36px;
+  margin: 10px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.408),
+    rgb(77, 166, 173)
+  );
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .showcase,
+  .showcase header {
+    padding: 50px;
+  }
+
+  .text h2 {
+    text-align: center;
+  }
+}
